@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	font-family: tahoma, arial, sans-serif;
+}
+
+header {
+	background-color: #e5e4e4;
+	text-align: center;
+	width: 100%;
+	height: 55px;
+	box-shadow: .5px 0 8px 0 #9c9c9c;
+	z-index: 10;
+}
+
+header p {
+	margin: 0 auto;
+	padding: 7px;
+	width: 500px;
+	text-shadow: 1px 1px 1px #f3f3f3;
+}
+
+article {
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+
+footer {
+	background-color: #e5e4e4;
+	text-align: center;
+	
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	box-shadow: .5px 0 8px 0 #9c9c9c;
+	z-index: 10;
+}
+
+
+footer ul {
+	margin: 0 auto;
+	color: #595959;
+	padding: 12px 0 0;
+	font-size: 12px;
+	width: 500px;
+}
+footer ul li {
+	display: inline;
+	padding: 0 4px 0 0;
+}
+footer ul li a {
+	color: #595959;
+	text-decoration: none;
+}
+
+#h_esquerda {
+	float: left;
+	padding: 2px 25px;
+}
+#h_direita {
+	float: right;
+	padding: 2px 25px;
+}
+#f_direita {
+	float: right;
+	padding: 3px 25px;
+}
+
+#conteudo{
+	padding: 1px 40px;
+	color: #333;
+}
+
+#desabilitador {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0, 0);
+	padding: 70px 10px;
+	font-size: 13px;
+	color: #FF4000;
+	text-shadow: 1px 1px 1px #eee;
+	
+	-webkit-user-select:none;
+	-moz-user-select: none;
+	user-select: none;
+	z-index: 5;
+}
+
+canvas {
+	width: 800px;
+	height: 600px;
+	background: #333;
+	margin: 15px auto;
+	display: block;
+	background-image: url('imagens/quadroBg1.png');
+	z-index: 2;
+	box-shadow: 1px 3px 5px #9c9c9c;
+}
